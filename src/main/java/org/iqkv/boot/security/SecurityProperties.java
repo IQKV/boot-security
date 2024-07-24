@@ -27,8 +27,8 @@ public class SecurityProperties {
 
     public static class JwtProperties {
       private String base64Secret;
-      private String tokenValidityInSeconds;
-      private String tokenValidityInSecondsForRememberMe;
+      private Long tokenValidityInSeconds;
+      private Long tokenValidityInSecondsForRememberMe;
 
       public String getBase64Secret() {
         return base64Secret;
@@ -38,19 +38,19 @@ public class SecurityProperties {
         this.base64Secret = base64Secret;
       }
 
-      public String getTokenValidityInSeconds() {
+      public Long getTokenValidityInSeconds() {
         return tokenValidityInSeconds;
       }
 
-      public void setTokenValidityInSeconds(String tokenValidityInSeconds) {
+      public void setTokenValidityInSeconds(Long tokenValidityInSeconds) {
         this.tokenValidityInSeconds = tokenValidityInSeconds;
       }
 
-      public String getTokenValidityInSecondsForRememberMe() {
+      public Long getTokenValidityInSecondsForRememberMe() {
         return tokenValidityInSecondsForRememberMe;
       }
 
-      public void setTokenValidityInSecondsForRememberMe(String tokenValidityInSecondsForRememberMe) {
+      public void setTokenValidityInSecondsForRememberMe(Long tokenValidityInSecondsForRememberMe) {
         this.tokenValidityInSecondsForRememberMe = tokenValidityInSecondsForRememberMe;
       }
     }
