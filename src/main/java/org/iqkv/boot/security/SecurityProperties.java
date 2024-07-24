@@ -13,6 +13,10 @@ public class SecurityProperties {
     return cors;
   }
 
+  public AuthenticationProperties getAuthentication() {
+    return authentication;
+  }
+
   public static class AuthenticationProperties {
 
     private final JwtProperties jwt = new JwtProperties();
