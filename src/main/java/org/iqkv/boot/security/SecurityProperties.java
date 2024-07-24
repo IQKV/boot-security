@@ -21,6 +21,10 @@ public class SecurityProperties {
 
     private final JwtProperties jwt = new JwtProperties();
 
+    public JwtProperties getJwt() {
+      return jwt;
+    }
+
     public static class JwtProperties {
       private String base64Secret;
       private String tokenValidityInSeconds;
