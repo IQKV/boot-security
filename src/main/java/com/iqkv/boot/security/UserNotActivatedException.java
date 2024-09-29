@@ -1,4 +1,4 @@
-package org.iqkv.boot.security;
+package com.iqkv.boot.security;
 
 import org.springframework.security.core.AuthenticationException;
 
