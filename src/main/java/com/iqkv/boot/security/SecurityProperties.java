@@ -1,4 +1,4 @@
-package org.iqkv.boot.security;
+package com.iqkv.boot.security;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.web.cors.CorsConfiguration;
