@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 IQKV Team, and the original author or authors from the JHipster project.
+ * Copyright 2025 Expertness Team, and the original author or authors from the JHipster project.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,8 +14,19 @@
  * limitations under the License.
  */
 
-/**
- * Application security utilities.
- */
+package expert.uses.boot.security;
 
-package com.iqkv.boot.security;
+/**
+ * Constants for Spring Security authorities.
+ */
+public final class AuthoritiesConstants {
+
+  public static final String ADMIN = "ROLE_ADMIN";
+
+  public static final String USER = "ROLE_USER";
+
+  public static final String ANONYMOUS = "ROLE_ANONYMOUS";
+
+  private AuthoritiesConstants() {
+  }
+}

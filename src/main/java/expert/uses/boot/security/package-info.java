@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 IQKV Team, and the original author or authors from the JHipster project.
+ * Copyright 2025 Expertness Team, and the original author or authors from the JHipster project.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,22 +14,8 @@
  * limitations under the License.
  */
 
-package com.iqkv.boot.security;
-
-import org.springframework.security.core.AuthenticationException;
-
 /**
- * This exception is thrown in case of a not activated user trying to authenticate.
+ * Application security utilities.
  */
-public class UserNotActivatedException extends AuthenticationException {
 
-  private static final long serialVersionUID = 1L;
-
-  public UserNotActivatedException(String message) {
-    super(message);
-  }
-
-  public UserNotActivatedException(String message, Throwable t) {
-    super(message, t);
-  }
-}
+package expert.uses.boot.security;
