@@ -1,4 +1,4 @@
-# Security Configuration
+# ✨ Security Configuration
 
 ## Versioning
 

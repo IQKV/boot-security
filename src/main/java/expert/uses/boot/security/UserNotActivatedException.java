@@ -1,5 +1,5 @@
 /*
- * Copyright 2025 IQKV Team, and the original author or authors from the JHipster project.
+ * Copyright 2025 Expertness Team, and the original author or authors from the JHipster project.
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -14,19 +14,22 @@
  * limitations under the License.
  */
 
-package com.iqkv.boot.security;
+package expert.uses.boot.security;
+
+import org.springframework.security.core.AuthenticationException;
 
 /**
- * Constants for Spring Security authorities.
+ * This exception is thrown in case of a not activated user trying to authenticate.
  */
-public final class AuthoritiesConstants {
+public class UserNotActivatedException extends AuthenticationException {
 
-  public static final String ADMIN = "ROLE_ADMIN";
+  private static final long serialVersionUID = 1L;
 
-  public static final String USER = "ROLE_USER";
+  public UserNotActivatedException(String message) {
+    super(message);
+  }
 
-  public static final String ANONYMOUS = "ROLE_ANONYMOUS";
-
-  private AuthoritiesConstants() {
+  public UserNotActivatedException(String message, Throwable t) {
+    super(message, t);
   }
 }
