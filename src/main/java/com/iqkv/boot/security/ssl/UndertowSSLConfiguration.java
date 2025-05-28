@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package expert.uses.boot.security.ssl;
+package com.iqkv.boot.security.ssl;
 
 import io.undertow.UndertowOptions;
 import org.slf4j.Logger;

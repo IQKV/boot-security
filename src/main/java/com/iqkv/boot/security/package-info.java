@@ -14,19 +14,8 @@
  * limitations under the License.
  */
 
-package expert.uses.boot.security;
-
 /**
- * Constants for Spring Security authorities.
+ * Application security utilities.
  */
-public final class AuthoritiesConstants {
 
-  public static final String ADMIN = "ROLE_ADMIN";
-
-  public static final String USER = "ROLE_USER";
-
-  public static final String ANONYMOUS = "ROLE_ANONYMOUS";
-
-  private AuthoritiesConstants() {
-  }
-}
+package com.iqkv.boot.security;

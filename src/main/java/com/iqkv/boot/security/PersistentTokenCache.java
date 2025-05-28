@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package expert.uses.boot.security;
+package com.iqkv.boot.security;
 
 import java.util.Iterator;
 import java.util.LinkedHashMap;
