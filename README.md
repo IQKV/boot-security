@@ -27,6 +27,7 @@ This library offers a collection of security-related utilities and configuration
 ## 📦 Dependencies
 
 Built on top of:
+
 - Spring Boot 3.x
 - Spring Security 6.x
 - Spring Security OAuth2
